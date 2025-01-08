@@ -9,7 +9,7 @@
 First of all deploy the machine and start nmap scan with the following command:
 
 ```bash
-nmap -A -Pn -v <IP>
+nmap -A -Pn -v IP
 ```
 ![Key Generation](images/screenshot1.png)
 ### Nmap Scan Results
@@ -45,6 +45,6 @@ gobuster dir -u http://IP:8001/ -w /usr/share/wordlists/rockyou.txt
 
 Using `gobuster`, we discover a `/web2` directory. Let’s explore it.
 
-![Key Generation](images/screenshot5.png)
+![Key Generation](images/screenshot6.png)
 
 
