@@ -93,6 +93,7 @@ We crack the hash using **hashes.com** and obtain the password: **“P@ssw0rd!!1
 From the note, we already know the username is **Aman**, so let’s try logging in to SSH with these credentials.
 
 • Username: `aman`
+<br>
 • Password: `P@ssw0rd!!1`
 
 ![Key Generation](images/screenshot14.png)
@@ -118,6 +119,7 @@ Using `snow.exe/stegsnow`, we uncover the username **"amanisher"** for the targe
 Now, let’s try logging in to the target machine using these credentials:
 
 • Username: `amanisher`
+<br>
 • Password: `P@ssw0rd!!1`
 
 ```bash
@@ -156,7 +158,7 @@ We attempt to crack it using `John the Ripper` , but it takes too long and doesn
 
 The root hint mentions that the passwd of `root` user is impossible to crack, so we need to find another way to escalate privileges.
 
-in the <a href="https://gtfobins.github.io">GTFObins</a> there is no direct way to open a root shell using sudo cat.
+in the <a href="https://gtfobins.github.io" target="_blank">GTFObins</a> there is no direct way to open a root shell using sudo cat.
 
 ```bash
 sudo -l
@@ -209,7 +211,7 @@ sudo LD_PRELOAD=/tmp/libc.so.6 /bin/cat
 
 And as you can see we successfully got the root shell.
 
-So, if you want to learn more about exploiting sudo environmental variables to spawn a root shell then you can read my <a href="https://medium.com/@amanchauhan0047/linux-privilege-escalation-with-sudo-environmental-variables-41ed7ad72958">Linux Privilege Escalation with Sudo — Environmental Variables</a> blog.
+So, if you want to learn more about exploiting sudo environmental variables to spawn a root shell then you can read my <a href="https://medium.com/@amanchauhan0047/linux-privilege-escalation-with-sudo-environmental-variables-41ed7ad72958" target="_blank">Linux Privilege Escalation with Sudo — Environmental Variables</a> blog.
 
 Now navigate to home directory of root user and catch the `root flag`.
 
@@ -220,4 +222,4 @@ And this time the root flag is not in a file it’s a **directory name**.
 ## Conclusion
 This walkthrough of the AvatarCTF room on TryHackMe showcased key techniques for exploiting sudo environmental variable. I hope you found this guide helpful in enhancing your skills in cyber security.
 
-Happy Hacking!!!
+***Happy Hacking!!!***
