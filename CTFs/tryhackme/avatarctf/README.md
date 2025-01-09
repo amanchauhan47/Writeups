@@ -220,6 +220,6 @@ Now navigate to home directory of root user and catch the `root flag`.
 And this time the root flag is not in a file it’s a **directory name**.
 
 ## Conclusion
-This walkthrough of the AvatarCTF room on TryHackMe showcased key techniques for exploiting sudo environmental variable. I hope you found this guide helpful in enhancing your skills in cyber security.
+This walkthrough of the **AvatarCTF** room on TryHackMe showcased key techniques for exploiting sudo environmental variable. I hope you found this guide helpful in enhancing your skills in cyber security.
 
 ***Happy Hacking!!!***
